@@ -40,3 +40,78 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  background-image: url(./images/cards-game.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0%;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.app {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  padding: 20px;
+}
+
+/* Player layout */
+.players {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+/* Each player box */
+.player {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  width: 220px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect (interactive feel) */
+.player:hover {
+  transform: scale(1.05);
+}
+
+/* Card display box */
+.card-box {
+  background: white;
+  color: black;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 15px 0;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+.controls {
+  margin-top: 30px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
